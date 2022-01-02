@@ -1,5 +1,5 @@
 # *Automation Testing*
-___
+
 The aim of this project is to learn Automation testing using Selenium webdriver and Python.
 
 ## *Description*
