@@ -1,15 +1,16 @@
-# Automation Testing
+# Automation Testing🖐
 
 The aim of this project is to learn Automation testing using Selenium webdriver and Python.
 
-## *Description*
+##✍️ *Description*
+
 
 This project is a self-learning initiative to learn web automation, using Selenium webdriver(open source tool).
 We will use python as a programming language to implement the automation scripts. Also
 further,we will use python pytest framework to create our test suite and run the automation
 tests.
 
-## *Prerequisites*
+##✍️ *Prerequisites*
 
 Following are the requirements before we start with our project:
 
@@ -19,7 +20,7 @@ Following are the requirements before we start with our project:
 4. Git fundamentals
 5. Linux OS(Few commands are run through linux terminal)
 
-## *Project Folder Structure/Description*
+##✍️ *Project Folder Structure/Description*
 
 * Selenium
     * Basics of Selenium 
@@ -41,7 +42,7 @@ Following are the requirements before we start with our project:
         * Creating configuration files(pytest.ini)
         * Generating test reports in html and xml
 
-## *Learning Resources*
+##✍️ *Learning Resources*
 
 * [Python Language Basics](https://docs.python.org/3/tutorial/index.html)
 * [Selenium Webdriver](https://www.selenium.dev/documentation/webdriver/getting_started/)
@@ -49,4 +50,3 @@ Following are the requirements before we start with our project:
 * [Learn Git](https://learngitbranching.js.org/)
 
 ![](https://www.python.org/static/img/python-logo.png)  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Selenium_Logo.png/220px-Selenium_Logo.png)
-
