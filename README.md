@@ -12,13 +12,14 @@ tests.
 
 ## *✍️ Prerequisites*
 
-Following are the requirements before we start with our project:
+Following is the environment that is used to drive this project:
 
-1. Python language basics
-2. Setting up of IDE(Pycharm in my case)
-3. Selenium webdriver using any browser(Firefox in my case)
-4. Git fundamentals
-5. Linux OS(Few commands are run through linux terminal)
+![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/IDE-Pycharm-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Tool-Selenium-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Tool-Git-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+
 
 ## *✍️ Project Folder Structure/Description*
 
@@ -50,3 +51,4 @@ Following are the requirements before we start with our project:
 * [Learn Git](https://learngitbranching.js.org/)
 
 ![](https://www.python.org/static/img/python-logo.png)  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Selenium_Logo.png/220px-Selenium_Logo.png)
+
