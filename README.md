@@ -47,3 +47,6 @@ Following are the requirements before we start with our project:
 * [Selenium Webdriver](https://www.selenium.dev/documentation/webdriver/getting_started/)
 * [Pycharm Installation](https://www.jetbrains.com/pycharm/download/#section=windows)
 * [Learn Git](https://learngitbranching.js.org/)
+
+![](https://www.python.org/static/img/python-logo.png)  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Selenium_Logo.png/220px-Selenium_Logo.png)
+
