@@ -9828,3 +9828,21 @@ JavaScript error: resource://gre/modules/Sqlite.jsm, line 1059: Error: Sqlite.js
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1641115725844	geckodriver	INFO	Listening on 127.0.0.1:45319
+1641115725865	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53483" "-no-remote" "-profile" "/tmp/rust_mozprofilebxmzcC"
+1641115728627	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebxmzcC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53483/devtools/browser/3d492de3-0e77-4ea1-bdc1-f2e644b75ec0
+1641115732660	Marionette	INFO	Listening on port 37331
+1641115732797	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.redbus.in/javascripts/layout.cf2b69000dcfba800997.bundle.js?root=rbus, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.redbus.in/javascripts/layout.cf2b69000dcfba800997.bundle.js?root=rbus, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: https://www.gstatic.com/recaptcha/releases/VZKEDW9wslPbEc9RmzMqaOAP/recaptcha__en.js, line 106: Error: reCAPTCHA placeholder element must be an element or id
+JavaScript error: https://connect.facebook.net/en_US/all.js?hash=c3585d3abca852ff9750c14ff8f20b33, line 113: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://static.xx.fbcdn.net/rsrc.php/v3iX3c4/y4/l/en_GB/o5XjgaLVgY-.js?_nc_x=Ij3Wp8lg5Kz, line 20: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641115756816	Marionette	INFO	Stopped listening on port 37331
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

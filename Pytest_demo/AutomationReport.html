@@ -243,7 +243,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
 }
 </script>
     <h1>AutomationReport.html</h1>
-    <p>Report generated on 02-Jan-2022 at 14:21:11 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
+    <p>Report generated on 02-Jan-2022 at 15:27:29 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a> v3.1.1</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -259,8 +259,8 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
         <td>Python</td>
         <td>3.9.7</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 17.63 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
+    <p>3 tests ran in 31.81 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="passed">3 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filterTable(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -274,12 +274,30 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
       <tbody class="passed results-table-row">
         <tr>
           <td class="col-result">Passed</td>
-          <td class="col-name">test_fixtures.py::test_browser</td>
-          <td class="col-duration">9.65</td>
+          <td class="col-name">test_parallel.py::test_site1</td>
+          <td class="col-duration">29.16</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="log"> -----------------------------Captured stdout setup------------------------------ <br/>Start the browser
-<br/> ------------------------------Captured stdout call------------------------------ <br/>Opening the website
-<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Action Completed
+            <div class="log">[gw0] linux -- Python 3.9.7 /home/myubuntu/PycharmProjects/pythonProject/venv/bin/python<br/>[gw0] linux -- Python 3.9.7 /home/myubuntu/PycharmProjects/pythonProject/venv/bin/python[gw0] linux -- Python 3.9.7 /home/myubuntu/PycharmProjects/pythonProject/venv/bin/python[gw0] linux -- Python 3.9.7 /home/myubuntu/PycharmProjects/pythonProject/venv/bin/python<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Closing the site :  1
+<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_parallel.py::test_site2</td>
+          <td class="col-duration">29.06</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">[gw1] linux -- Python 3.9.7 /home/myubuntu/PycharmProjects/pythonProject/venv/bin/python<br/>[gw1] linux -- Python 3.9.7 /home/myubuntu/PycharmProjects/pythonProject/venv/bin/python[gw1] linux -- Python 3.9.7 /home/myubuntu/PycharmProjects/pythonProject/venv/bin/python[gw1] linux -- Python 3.9.7 /home/myubuntu/PycharmProjects/pythonProject/venv/bin/python<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Closing the site :  1
+<br/></div></td></tr></tbody>
+      <tbody class="passed results-table-row">
+        <tr>
+          <td class="col-result">Passed</td>
+          <td class="col-name">test_parallel.py::test_site3</td>
+          <td class="col-duration">28.21</td>
+          <td class="col-links"></td></tr>
+        <tr>
+          <td class="extra" colspan="4">
+            <div class="log">[gw2] linux -- Python 3.9.7 /home/myubuntu/PycharmProjects/pythonProject/venv/bin/python<br/>[gw2] linux -- Python 3.9.7 /home/myubuntu/PycharmProjects/pythonProject/venv/bin/python[gw2] linux -- Python 3.9.7 /home/myubuntu/PycharmProjects/pythonProject/venv/bin/python[gw2] linux -- Python 3.9.7 /home/myubuntu/PycharmProjects/pythonProject/venv/bin/python<br/> ----------------------------Captured stdout teardown---------------------------- <br/>Closing the site :  1
 <br/></div></td></tr></tbody></table></body></html>
