@@ -2,7 +2,7 @@
 
 The aim of this project is to learn Automation testing using Selenium webdriver and Python.
 
-##✍️ *Description*
+## *✍️Description*
 
 
 This project is a self-learning initiative to learn web automation, using Selenium webdriver(open source tool).
