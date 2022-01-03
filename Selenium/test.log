@@ -1,0 +1,5 @@
+01/03/2022 05: 11: 27 PM:DEBUG:This is debug msg!!!:[15]:/home/myubuntu/PycharmProjects/AutomationTest/Selenium/Logging.py
+01/03/2022 05: 11: 27 PM:INFO:This is info msg!!!:[16]:/home/myubuntu/PycharmProjects/AutomationTest/Selenium/Logging.py
+01/03/2022 05: 11: 27 PM:WARNING:This is warning msg!!!:[19]:/home/myubuntu/PycharmProjects/AutomationTest/Selenium/Logging.py
+01/03/2022 05: 11: 27 PM:ERROR:This is error msg!!!:[20]:/home/myubuntu/PycharmProjects/AutomationTest/Selenium/Logging.py
+01/03/2022 05: 11: 27 PM:CRITICAL:This is critical msg!!!:[21]:/home/myubuntu/PycharmProjects/AutomationTest/Selenium/Logging.py
