@@ -7,6 +7,21 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver import ActionChains
 import pandas as pd
 from selenium.common.exceptions import NoSuchElementException   #Specifically for exception Handling
+import sqlite3
+
+connection = sqlite3.connect("ScrapeInfo.db")
+cursor = connection.cursor()
+
+cursor.execute('''DROP TABLE Products''')
+
+
+cursor.execute("""CREATE TABLE Products(
+                  Name text,
+                  Original Price text,
+                  Discount text,
+                  New Price text,
+                  Ratings text
+                )""")
 
 
 url = 'https://www.snapdeal.com/products/mobiles-printed-back-covers?sort=plrty&q=Price%3A76%2C1049%7C'
@@ -72,6 +87,13 @@ for prod in elelist:
                  }
     prodlist.append(prod_dict)
 
+    cursor.execute('''INSERT INTO Products VALUES(?,?,?,?,?)''',(name,orig_price,discount,price,rating))
+    connection.commit()
+
+cursor.execute('''SELECT * FROM Products''')
+products = cursor.fetchall()
+print(products)
+print(len(products))
 
 df = pd.DataFrame(prodlist)
 df.to_excel("Scrape_Results.xlsx")
@@ -80,3 +102,7 @@ print(df)
 print(counter)
 time.sleep(5)
 driver.quit()
+connection.close()
+
+
+
