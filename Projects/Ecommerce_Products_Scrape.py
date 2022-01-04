@@ -74,7 +74,7 @@ for prod in elelist:
 
 
 df = pd.DataFrame(prodlist)
-df.to_excel("Scroll_Ecomm.xlsx")
+df.to_excel("Scrape_Results.xlsx")
 print(df)
 
 print(counter)
