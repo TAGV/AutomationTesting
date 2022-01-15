@@ -2,13 +2,15 @@ import requests
 
 
 payload ={
-            "name": "Jack",
-            "job": "Doctor"
+            "email": "eve.holt@reqres.in",
+            "password": "pistol"
         }
 
-post_data = requests.post("https://reqres.in/api/users",data=payload)
+# Getting the response from the API
+response = requests.post("https://reqres.in/api/register",data=payload)
 
-print(post_data.json())
+# Printing the response
+print(response.json())      # {'id': 4, 'token': 'QpwL5tke4Pnpja7X4'}
 
-assert post_data.json()['name'] == 'Jack',"Name not match"
+assert response.json()['id'] == 4,"ID not match"
 
